@@ -27,7 +27,7 @@ export default function ItemListContainer() {
   return (
     <Flex>
       {packProduct.map((item) => {
-        return <ItemList id={item.id} key={item.id} />;
+        return <ItemList item={item} id={item.id} key={item.id} />;
       })}
     </Flex>
   );

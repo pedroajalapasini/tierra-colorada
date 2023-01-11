@@ -21,6 +21,7 @@ export default function ItemDetailContainer() {
       title={ProductDetail.title}
       img={ProductDetail.img}
       category={ProductDetail.category}
+      detail={ProductDetail.detail}
       price={ProductDetail.price}
     />
   );
