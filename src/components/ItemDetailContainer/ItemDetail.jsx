@@ -1,15 +1,16 @@
 
 import React from "react";
 import ItemCount from "../ItemCount/ItemCount";
+import "./ItemDetail.css"
 
-export default function ItemDetail({ title, imgurl, category, price, detail}) {
+export default function ItemDetail({ title, img, category, price, detail}) {
   return (
     <div className="card-detail">
       <div className="card-detail_title">
         <h2>{title}</h2>
       </div>
       <div className="card-detail_img">
-        <img src={imgurl} alt={title} />
+        <img src={img} alt={title} />
       </div>
       <div className="card-detail_detail">
         <p>{detail}</p>

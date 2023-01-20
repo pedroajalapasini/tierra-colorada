@@ -56,7 +56,7 @@ const dbProductos = [
   {
     id: 7,
     title: "Tafí del valle + Ruinas de Quilmes",
-    category: "Tucuman",
+    category: "Tucumán",
     stock: 10,
     imgurl: "https://i.imgur.com/Yt2YI2v.jpeg",
     price: 113.10,
@@ -90,8 +90,7 @@ const dbProductos = [
     detail:"Una propuesta para recorrer paisajes majestuosos, viajar al pasado y disfrutar de la tranquilidad que un pueblo vallisto, como Cachi, nos puede brindar. Viajarás por rutas escénicas (Quebrada de Escoipe y Cuesta del Obispo) que junto con el encantador destino, forman un combo cautivante.",
   },
 ];
-let priceARS = dbProductos.map(p => ({ ...p, price: p.price * 335 }));
-     console.log(priceARS);
+
 
 const getProducts = () => {
     return new Promise((resolve) => {

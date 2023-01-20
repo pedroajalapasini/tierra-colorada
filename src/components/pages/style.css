@@ -1,0 +1,44 @@
+.HomeMKT{
+    background-image: url("https://media.tacdn.com/media/attractions-splice-spp-674x446/09/53/c7/75.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+.title-home h1{
+margin: 5px;
+padding-top: 50px;
+text-align: center;
+color: #6e2218;
+}
+.info-main{
+    background-color: #1D2834;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.info-main span{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #CC8348;
+}
+
+.info-product h2{
+    font-size: 25px;
+    text-align: center;
+    margin: 5px;
+padding-top: 10px;
+}

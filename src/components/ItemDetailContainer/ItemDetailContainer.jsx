@@ -19,7 +19,7 @@ export default function ItemDetailContainer() {
   return (
     <ItemDetail
       title={ProductDetail.title}
-      img={ProductDetail.img}
+      img={ProductDetail.imgurl}
       category={ProductDetail.category}
       detail={ProductDetail.detail}
       price={ProductDetail.price}

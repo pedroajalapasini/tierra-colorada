@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
-import getProducts,{getProductByCategory} from "../../services/mockProducts";
+import getProducts, { getProductByCategory } from "../../services/mockProducts";
 import { useParams } from "react-router-dom";
 
 import React from "react";
 import ItemList from "./ItemList";
 import Flex from "../Flex/Flex";
 import "./ItemCard.css";
+import HomeMKT from "../pages/HomeMKT";
 
 export default function ItemListContainer() {
   const [packProduct, setPackProduct] = useState([]);
@@ -23,12 +24,15 @@ export default function ItemListContainer() {
       });
     }
   }, [idcategory]);
-
+  
   return (
-    <Flex>
-      {packProduct.map((item) => {
-        return <ItemList item={item} id={item.id} key={item.id} />;
-      })}
-    </Flex>
+    <>
+      <HomeMKT />
+      <Flex>
+        {packProduct.map((item) => {
+          return <ItemList item={item} id={item.id} key={item.id} />;
+        })}
+      </Flex>
+    </>
   );
 }

@@ -4,6 +4,7 @@ import  Button  from "../Button/Button";
 
 export default function ItemList(props) {
   const { title, imgurl, category, price, id } = props.item;
+  
   return (
     <div className="card-item">
       <div className="card-item_title">

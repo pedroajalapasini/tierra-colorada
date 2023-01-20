@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../imgs/tierra-c-brand.png";
+const logourl = "https://i.imgur.com/B4JqCxL.png";
 
 const Brand = (props) => (
   <Link to="/">
-    <img src={logo} alt={props.title}/>
+    <img src={logourl} alt={props.title}/>
   </Link>
 );
 
