@@ -91,7 +91,6 @@ const dbProductos = [
   },
 ];
 
-
 const getProducts = () => {
     return new Promise((resolve) => {
       setTimeout(() => {

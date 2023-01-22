@@ -4,6 +4,7 @@ import Brand from "./Brand";
 import "./NavBar.css";
 import CartWidget from "./CartWidget";
 import NavItem from "./NavItem";
+import Button from "../Button/Button";
 
 function NavBar() {
   return (
@@ -28,6 +29,7 @@ function NavBar() {
               {" "}
               <CartWidget />{" "}
             </Link>
+            <Button/>
           </NavItem>
         </ul>
       </nav>

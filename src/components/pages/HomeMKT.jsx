@@ -2,12 +2,13 @@ import React from "react";
 import "./style.css";
 import { FaSearchDollar, FaComment, FaRegThumbsUp } from "react-icons/fa";
 import { AiOutlineFieldTime } from "react-icons/ai";
+import TButton from "../TButton/TButton";
 
 
 
 export default function HomeMKT() {
 
-  return (
+  return (    
     <>
     <section className="HomeMKT">
       <div className="title-home">
